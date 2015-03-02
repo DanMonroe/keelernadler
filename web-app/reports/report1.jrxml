@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="21"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     fee_run.`id` AS fee_run_id,
+     fee_run.`version` AS fee_run_version,
+     fee_run.`date_created` AS fee_run_date_created,
+     fee_run.`last_updated` AS fee_run_last_updated,
+     fee_group.`id` AS fee_group_id,
+     fee_group.`version` AS fee_group_version,
+     fee_group.`fee_run_id` AS fee_group_fee_run_id,
+     fee_group.`group_id` AS fee_group_group_id,
+     fee_group.`group_fee` AS fee_group_group_fee,
+     fee_group.`market_value` AS fee_group_market_value,
+     fee_group.`feegroups_idx` AS fee_group_feegroups_idx,
+     group_account.`id` AS group_account_id,
+     group_account.`version` AS group_account_version,
+     group_account.`invoiced` AS group_account_invoiced,
+     group_account.`name` AS group_account_name,
+     group_account.`rate_schedule_id` AS group_account_rate_schedule_id
+FROM
+     `fee_run` fee_run INNER JOIN `fee_group` fee_group ON fee_run.`id` = fee_group.`fee_run_id`
+     INNER JOIN `group_account` group_account ON fee_group.`group_id` = group_account.`id`]]>
+	</queryString>
+	<field name="group_account_name" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="143" height="45" forecolor="#CCCCFF"/>
+				<textElement>
+					<font size="32" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INVOICE]]></text>
+			</staticText>
+			<image>
+				<reportElement x="226" y="0" width="329" height="61"/>
+				<imageExpression class="java.lang.String"><![CDATA["C:\\dev\\grails\\keelernadler\\web-app\\reports\\cambridge.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="17" width="226" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{group_account_name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

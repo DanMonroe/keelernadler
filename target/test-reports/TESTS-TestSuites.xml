@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="0" name="AccntControllerTests" package="com.kn" tests="1" time="0.875" timestamp="2011-02-06T22:52:48">
+      <properties />
+
+      <testcase classname="com.kn.AccntControllerTests" name="testSomething" time="0.854" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="1" name="AccntTests" package="com.kn" tests="1" time="0.01" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.AccntTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="2" name="AccountTypeControllerTests" package="com.kn" tests="1" time="0.154" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.AccountTypeControllerTests" name="testSomething" time="0.152" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="3" name="AccountTypeTests" package="com.kn" tests="1" time="0.0080" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.AccountTypeTests" name="testSomething" time="0.0050" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="4" name="BillingScheduleControllerTests" package="com.kn" tests="1" time="0.072" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.BillingScheduleControllerTests" name="testSomething" time="0.069" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="5" name="BillingScheduleTests" package="com.kn" tests="1" time="0.0070" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.BillingScheduleTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="6" name="FeeControllerTests" package="com.kn" tests="1" time="0.069" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.FeeControllerTests" name="testSomething" time="0.058" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="7" name="FeeGroupControllerTests" package="com.kn" tests="1" time="0.069" timestamp="2011-02-06T22:52:49">
+      <properties />
+
+      <testcase classname="com.kn.FeeGroupControllerTests" name="testSomething" time="0.064" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="8" name="FeeGroupTests" package="com.kn" tests="1" time="0.0080" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.FeeGroupTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="9" name="FeeRunControllerTests" package="com.kn" tests="1" time="0.105" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.FeeRunControllerTests" name="testSomething" time="0.1" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="10" name="FeeRunTests" package="com.kn" tests="1" time="0.0070" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.FeeRunTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="11" name="FeeTests" package="com.kn" tests="1" time="0.037" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.FeeTests" name="testSomething" time="0.031" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="12" name="GroupAccountControllerTests" package="com.kn" tests="1" time="0.076" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.GroupAccountControllerTests" name="testSomething" time="0.064" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="13" name="GroupAccountTests" package="com.kn" tests="1" time="0.0080" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.GroupAccountTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="14" name="MonthsControllerTests" package="com.kn" tests="1" time="0.078" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.MonthsControllerTests" name="testSomething" time="0.076" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="15" name="MonthsTests" package="com.kn" tests="1" time="0.03" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.MonthsTests" name="testSomething" time="0.0090" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="dmonroe-win7" id="16" name="MypdfServiceTests" package="com.kn" tests="1" time="0.028" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.MypdfServiceTests" name="testSomething" time="0.027">
+          <error message="Cannot invoke method test() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method test() on null object
+	at com.kn.MypdfServiceTests.testSomething(MypdfServiceTests.groovy:16)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="17" name="RateControllerTests" package="com.kn" tests="1" time="0.066" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.RateControllerTests" name="testSomething" time="0.064" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="18" name="RateScheduleControllerTests" package="com.kn" tests="1" time="0.069" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.RateScheduleControllerTests" name="testSomething" time="0.067" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="19" name="RateScheduleTests" package="com.kn" tests="1" time="0.0050" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.RateScheduleTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="20" name="RateTests" package="com.kn" tests="1" time="0.0050" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.RateTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="21" name="RepNumControllerTests" package="com.kn" tests="1" time="0.064" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.RepNumControllerTests" name="testSomething" time="0.063" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="22" name="RepNumTests" package="com.kn" tests="1" time="0.0040" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.RepNumTests" name="testSomething" time="0.0030" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="23" name="UploadControllerTests" package="com.kn" tests="1" time="0.035" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.UploadControllerTests" name="testSomething" time="0.034" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="24" name="UserControllerTests" package="com.kn" tests="1" time="0.065" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="com.kn.UserControllerTests" name="testSomething" time="0.064" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="25" name="KnTagsTagLibTests" package="keelernadler" tests="1" time="0.083" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="keelernadler.KnTagsTagLibTests" name="testSomething" time="0.083" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="dmonroe-win7" id="26" name="KnpdfServiceTests" package="keelernadler" tests="1" time="0.0040" timestamp="2011-02-06T22:52:50">
+      <properties />
+
+      <testcase classname="keelernadler.KnpdfServiceTests" name="testSomething" time="0.0020" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

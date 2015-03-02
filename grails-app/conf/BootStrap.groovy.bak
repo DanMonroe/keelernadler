@@ -1,0 +1,115 @@
+class BootStrap {
+
+    def init = { servletContext ->
+        def type1 = new com.kn.AccountType(title:"Trust").save(flush:true, failOnError: true)
+        def type2 = new com.kn.AccountType(title:"IRA").save(flush:true, failOnError: true)
+        def type3 = new com.kn.AccountType(title:"IRA RO").save(flush:true, failOnError: true)
+        def type4 = new com.kn.AccountType(title:"Individual").save(flush:true, failOnError: true)
+        def type5 = new com.kn.AccountType(title:"Joint").save(flush:true, failOnError: true)
+        def type6 = new com.kn.AccountType(title:"403B").save(flush:true, failOnError: true)
+
+
+        def rate1 = new com.kn.Rate(rate:0.002520548, blockAmount:250000).save(flush:true, failOnError: true)
+        def rate2 = new com.kn.Rate(rate:0.001890411, blockAmount:250000).save(flush:true, failOnError: true)
+        def rate3 = new com.kn.Rate(rate:0.001260274, blockAmount:50000000).save(flush:true, failOnError: true)
+
+        def rateSchd1 = new com.kn.RateSchedule(name:"Schedule 1", stepping: true)
+        .addToRates(rate1)
+        .addToRates(rate2)
+        .addToRates(rate3)
+        .save(flush:true, failOnError: true)
+
+        def rateSchd2 = new com.kn.RateSchedule(name:"Schedule 2", stepping: false)
+            .addToRates(rate1)
+            .save(flush:true, failOnError: true)
+
+    def accnt1 = new com.kn.Accnt(name:"a1",accountID:"5DK111111",billingAccountID:"5DK111111",type:type1, payPlan: "Advance", repNum: "PU 5")
+    def accnt2 = new com.kn.Accnt(name:"a2",accountID:"5DK111112",billingAccountID:"5DK111112",type:type1, payPlan: "Advance", repNum: "PU 5")
+    def accnt3 = new com.kn.Accnt(name:"a3",accountID:"5DK111113",billingAccountID:"5DK111113",type:type1, payPlan: "Advance", repNum: "PU 5")
+    def accnt4 = new com.kn.Accnt(name:"a4",accountID:"5DK111114",billingAccountID:"5DK111114",type:type3, payPlan: "Advance", repNum: "PU 5")
+
+    def g1 = new com.kn.GroupAccount(name:"group1", rateSchedule: rateSchd1)
+            .addToAccounts(accnt1)
+            .addToAccounts(accnt2)
+            .addToAccounts(accnt3)
+            .addToAccounts(accnt4)
+            .save(flush:true, failOnError: true)
+
+    def accnt21 = new com.kn.Accnt(name:"a21",accountID:"5DK111128",billingAccountID:"5DK111128",type:type5, payPlan: "Advance", repNum: "PU 5")
+    def accnt22 = new com.kn.Accnt(name:"a22",accountID:"5DK111129",billingAccountID:"5DK111129",type:type6, payPlan: "Advance", repNum: "PU 5")
+    def accnt23 = new com.kn.Accnt(name:"a23",accountID:"5DK111130",billingAccountID:"5DK111130",type:type6, payPlan: "Advance", repNum: "PU 5")
+    def accnt24 = new com.kn.Accnt(name:"a24",accountID:"5DK111131",billingAccountID:"5DK111131",type:type6, payPlan: "Advance", repNum: "PU 5")
+
+    def g2 = new com.kn.GroupAccount(name:"group2", rateSchedule: rateSchd2)
+            .addToAccounts(accnt21)
+            .addToAccounts(accnt22)
+            .addToAccounts(accnt23)
+            .addToAccounts(accnt24)
+            .save(flush:true, failOnError: true)
+
+    // group 3
+    // uses rateSched2
+    def accnt31 = new com.kn.Accnt(name:"a31",accountID:"5DK111117",billingAccountID:"5DK111117",type:type4, payPlan: "Advance", repNum: "PU 5")
+
+    def g3 = new com.kn.GroupAccount(name:"group3", rateSchedule: rateSchd2)
+            .addToAccounts(accnt31)
+            .save(flush:true, failOnError: true)
+
+    // group 4
+    def accnt41 = new com.kn.Accnt(name:"a41",accountID:"5DK111119",billingAccountID:"5DK111119",type:type2, payPlan: "Advance", repNum: "PU 5")
+    def accnt42 = new com.kn.Accnt(name:"a42",accountID:"5DK111120",billingAccountID:"5DK111120",type:type4, payPlan: "Advance", repNum: "PU 5")
+    def g4 = new com.kn.GroupAccount(name:"group4", rateSchedule: rateSchd1)
+            .addToAccounts(accnt41)
+            .addToAccounts(accnt42)
+            .save(flush:true, failOnError: true)
+
+    // group 5
+    def accnt51 = new com.kn.Accnt(name:"a51",accountID:"5DK111123",billingAccountID:"5DK111124",type:type4, payPlan: "Advance", repNum: "PU 5")
+    def accnt52 = new com.kn.Accnt(name:"a52",accountID:"5DK111124",billingAccountID:"5DK111124",type:type2, payPlan: "Advance", repNum: "PU 5")
+    def accnt53 = new com.kn.Accnt(name:"a53",accountID:"5DK111125",billingAccountID:"5DK111124",type:type2, payPlan: "Advance", repNum: "PU 5")
+    def g5 = new com.kn.GroupAccount(name:"group5", rateSchedule: rateSchd1)
+            .addToAccounts(accnt51)
+            .addToAccounts(accnt52)
+            .addToAccounts(accnt53)
+            .save(flush:true, failOnError: true)
+
+    // group 6 - has different billingaccount for accnt64
+    def accnt61 = new com.kn.Accnt(name:"a61",accountID:"5DK111185",billingAccountID:"5DK111185",type:type4, payPlan: "Advance", repNum: "PU 5")
+    def accnt62 = new com.kn.Accnt(name:"a62",accountID:"5DK111186",billingAccountID:"5DK111186",type:type2, payPlan: "Advance", repNum: "PU 5")
+    def accnt63 = new com.kn.Accnt(name:"a63",accountID:"5DK111187",billingAccountID:"5DK111187",type:type2, payPlan: "Advance", repNum: "PU 5")
+    def accnt64 = new com.kn.Accnt(name:"a64",accountID:"5DK111188",billingAccountID:"5DK111187",type:type2, payPlan: "Advance", repNum: "PU 5")
+    def g6 = new com.kn.GroupAccount(name:"group6", rateSchedule: rateSchd1)
+            .addToAccounts(accnt61)
+            .addToAccounts(accnt62)
+            .addToAccounts(accnt63)
+            .addToAccounts(accnt64)
+            .save(flush:true, failOnError: true)
+
+/**
+        def accnt1 = new com.kn.Accnt(name:"a1",accountID:"5DK111111",accountType:"Trust",accountValue:0, rate:rate1)
+        def accnt2 = new com.kn.Accnt(name:"a2",accountID:"5DK111112",accountType:"Trust",accountValue:0, rate:rate2)
+        def accnt3 = new com.kn.Accnt(name:"a3",accountID:"5DK111113",accountType:"Trust",accountValue:0, rate:rate3)
+        def accnt4 = new com.kn.Accnt(name:"a4",accountID:"5DK111114",accountType:"Trust",accountValue:0, rate:rate1)
+        def grp1 = new com.kn.GroupAccount(name:"group1")
+            .addToAccounts(accnt1)
+            .addToAccounts(accnt2)
+            .addToAccounts(accnt3)
+            .addToAccounts(accnt4)
+            .save(flush:true, failOnError: true)
+
+        def accnt5 = new com.kn.Accnt(name:"a5",accountID:"5DK111115",accountType:"Trust",accountValue:0, rate:rate1)
+        def grp2 = new com.kn.GroupAccount(name:"group2")
+            .addToAccounts(accnt5)
+            .save(flush:true, failOnError: true)
+            
+        def accnt6 = new com.kn.Accnt(name:"a6",accountID:"5DK111116",accountType:"Trust",accountValue:0, rate:rate1)
+        def accnt7 = new com.kn.Accnt(name:"a7",accountID:"5DK111117",accountType:"Trust",accountValue:0, rate:rate1)
+        def grp3 = new com.kn.GroupAccount(name:"group3")
+            .addToAccounts(accnt6)
+            .addToAccounts(accnt7)
+            .save(flush:true, failOnError: true)
+*/
+    }
+    def destroy = {
+    }
+}

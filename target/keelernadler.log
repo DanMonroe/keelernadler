@@ -1,0 +1,1836 @@
+[Sat, 05-Feb-2011 @ 22:30:35.708] [http-8080-2] ERROR grails.app.service.pdf.PdfService  - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[Sat, 05-Feb-2011 @ 22:30:53.774] [http-8080-5] ERROR grails.app.service.pdf.PdfService  - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[Sat, 05-Feb-2011 @ 22:38:02.369] [http-8080-2] ERROR grails.app.service.pdf.PdfService  - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[Sat, 05-Feb-2011 @ 22:38:18.043] [http-8080-1] ERROR grails.app.service.pdf.PdfService  - java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+[Sat, 05-Feb-2011 @ 22:46:45.620] [http-8080-2] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: Premature end of file.
+[Sat, 05-Feb-2011 @ 22:50:21.449] [http-8080-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[jsp]  - Servlet.service() for servlet jsp threw exception
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:229)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:329)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrl(WebUtils.java:378)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrlMappingInfo(WebUtils.java:339)
+	at org.codehaus.groovy.grails.web.util.WebUtils$includeForUrlMappingInfo.call(Unknown Source)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib$_closure1.doCall(RenderTagLib.groovy:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage.captureTagOutput(GroovyPage.java:539)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage$captureTagOutput.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils$_registerMethodMissingForTags_closure24.doCall(WebMetaUtils.groovy:247)
+	at sun.reflect.GeneratedMethodAccessor392.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib.invokeMethod(RenderTagLib.groovy)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.taglib.NamespacedTagDispatcher.invokeMethod(NamespacedTagDispatcher.groovy:49)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at groovy.lang.Closure.call(Closure.java:271)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.filter.GrailsReloadServletFilter.doFilterInternal(GrailsReloadServletFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 22:50:21.520] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 1
+pdfAction: invoice
+pdfId: 1
+pdfController: feeRun
+Stacktrace follows:
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 22:56:49.849] [http-8080-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[jsp]  - Servlet.service() for servlet jsp threw exception
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:229)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:329)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrl(WebUtils.java:378)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrlMappingInfo(WebUtils.java:339)
+	at org.codehaus.groovy.grails.web.util.WebUtils$includeForUrlMappingInfo.call(Unknown Source)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib$_closure1.doCall(RenderTagLib.groovy:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage.captureTagOutput(GroovyPage.java:539)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage$captureTagOutput.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils$_registerMethodMissingForTags_closure24.doCall(WebMetaUtils.groovy:247)
+	at sun.reflect.GeneratedMethodAccessor392.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib.invokeMethod(RenderTagLib.groovy)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.taglib.NamespacedTagDispatcher.invokeMethod(NamespacedTagDispatcher.groovy:49)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at groovy.lang.Closure.call(Closure.java:271)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.filter.GrailsReloadServletFilter.doFilterInternal(GrailsReloadServletFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 22:56:49.883] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 1
+pdfAction: invoice
+pdfId: 1
+pdfController: feeRun
+Stacktrace follows:
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 22:58:37.689] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[jsp]  - Servlet.service() for servlet jsp threw exception
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:229)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:329)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrl(WebUtils.java:378)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrlMappingInfo(WebUtils.java:339)
+	at org.codehaus.groovy.grails.web.util.WebUtils$includeForUrlMappingInfo.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib$_closure1.doCall(RenderTagLib.groovy:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage.captureTagOutput(GroovyPage.java:539)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage$captureTagOutput.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils$_registerMethodMissingForTags_closure24.doCall(WebMetaUtils.groovy:247)
+	at sun.reflect.GeneratedMethodAccessor271.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib.invokeMethod(RenderTagLib.groovy)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.taglib.NamespacedTagDispatcher.invokeMethod(NamespacedTagDispatcher.groovy:49)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at groovy.lang.Closure.call(Closure.java:271)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.filter.GrailsReloadServletFilter.doFilterInternal(GrailsReloadServletFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 22:58:37.751] [http-8080-4] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 1
+pdfAction: invoice
+pdfId: 1
+pdfController: feeRun
+Stacktrace follows:
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 23:09:51.233] [http-8080-3] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: Premature end of file.
+[Sat, 05-Feb-2011 @ 23:11:52.524] [http-8080-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 68: unable to resolve class PdfService 
+ @ line 68, column 20.
+           PdfService pdfService
+                      ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Sat, 05-Feb-2011 @ 23:11:52.529] [http-8080-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 68: unable to resolve class PdfService 
+ @ line 68, column 20.
+           PdfService pdfService
+                      ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Sat, 05-Feb-2011 @ 23:18:32.931] [http-8080-6] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[jsp]  - Servlet.service() for servlet jsp threw exception
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:229)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:329)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrl(WebUtils.java:378)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrlMappingInfo(WebUtils.java:339)
+	at org.codehaus.groovy.grails.web.util.WebUtils$includeForUrlMappingInfo.call(Unknown Source)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib$_closure1.doCall(RenderTagLib.groovy:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage.captureTagOutput(GroovyPage.java:539)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage$captureTagOutput.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils$_registerMethodMissingForTags_closure24.doCall(WebMetaUtils.groovy:247)
+	at sun.reflect.GeneratedMethodAccessor364.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib.invokeMethod(RenderTagLib.groovy)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at groovy.lang.GroovyObject$invokeMethod.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.taglib.NamespacedTagDispatcher.invokeMethod(NamespacedTagDispatcher.groovy:49)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at groovy.lang.Closure.call(Closure.java:271)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.filter.GrailsReloadServletFilter.doFilterInternal(GrailsReloadServletFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 23:18:32.980] [http-8080-6] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 1
+pdfAction: invoice
+pdfId: 1
+pdfController: feeRun
+Stacktrace follows:
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 23:19:45.457] [http-8080-2] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: Premature end of file.
+[Sat, 05-Feb-2011 @ 23:57:25.088] [http-8080-6] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\pdf\InvoiceController.groovy: 5: unable to resolve class pdf.PdfGrailsPlugin.PdfService 
+ @ line 5, column 5.
+       pdf.PdfGrailsPlugin.PdfService pdfService
+       ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Sat, 05-Feb-2011 @ 23:57:25.094] [http-8080-6] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\pdf\InvoiceController.groovy: 5: unable to resolve class pdf.PdfGrailsPlugin.PdfService 
+ @ line 5, column 5.
+       pdf.PdfGrailsPlugin.PdfService pdfService
+       ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Sat, 05-Feb-2011 @ 23:57:40.799] [http-8080-6] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\pdf\InvoiceController.groovy: 5: unable to resolve class pdf.PdfGrailsPlugin.PdfService 
+ @ line 5, column 5.
+       pdf.PdfGrailsPlugin.PdfService pdfService
+       ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Sat, 05-Feb-2011 @ 23:57:40.806] [http-8080-6] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\pdf\InvoiceController.groovy: 5: unable to resolve class pdf.PdfGrailsPlugin.PdfService 
+ @ line 5, column 5.
+       pdf.PdfGrailsPlugin.PdfService pdfService
+       ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Sat, 05-Feb-2011 @ 23:58:00.269] [http-8080-3] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[jsp]  - Servlet.service() for servlet jsp threw exception
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/invoice/test.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:229)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:329)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrl(WebUtils.java:378)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrlMappingInfo(WebUtils.java:339)
+	at org.codehaus.groovy.grails.web.util.WebUtils$includeForUrlMappingInfo.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib$_closure1.doCall(RenderTagLib.groovy:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage.captureTagOutput(GroovyPage.java:539)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage$captureTagOutput$0.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils$_registerMethodMissingForTags_closure24.doCall(WebMetaUtils.groovy:247)
+	at sun.reflect.GeneratedMethodAccessor295.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib.invokeMethod(RenderTagLib.groovy)
+	at groovy.lang.GroovyObject$invokeMethod$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at groovy.lang.GroovyObject$invokeMethod$0.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.taglib.NamespacedTagDispatcher.invokeMethod(NamespacedTagDispatcher.groovy:49)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at groovy.lang.Closure.call(Closure.java:271)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.filter.GrailsReloadServletFilter.doFilterInternal(GrailsReloadServletFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 05-Feb-2011 @ 23:58:00.327] [http-8080-3] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 2
+pdfAction: test
+pdfId: 2
+pdfController: invoice
+Stacktrace follows:
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/invoice/test.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 06-Feb-2011 @ 00:00:27.545] [http-8080-3] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: The element type "meta" must be terminated by the matching end-tag "</meta>".
+[Sun, 06-Feb-2011 @ 00:02:11.921] [http-8080-4] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: Premature end of file.
+[Sun, 06-Feb-2011 @ 00:02:35.014] [http-8080-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[jsp]  - Servlet.service() for servlet jsp threw exception
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:229)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:329)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:551)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:488)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrl(WebUtils.java:378)
+	at org.codehaus.groovy.grails.web.util.WebUtils.includeForUrlMappingInfo(WebUtils.java:339)
+	at org.codehaus.groovy.grails.web.util.WebUtils$includeForUrlMappingInfo.call(Unknown Source)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib$_closure1.doCall(RenderTagLib.groovy:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage.captureTagOutput(GroovyPage.java:539)
+	at org.codehaus.groovy.grails.web.pages.GroovyPage$captureTagOutput$0.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils$_registerMethodMissingForTags_closure24.doCall(WebMetaUtils.groovy:247)
+	at sun.reflect.GeneratedMethodAccessor295.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+	at org.codehaus.groovy.grails.plugins.web.taglib.RenderTagLib.invokeMethod(RenderTagLib.groovy)
+	at groovy.lang.GroovyObject$invokeMethod$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at groovy.lang.GroovyObject$invokeMethod$0.call(Unknown Source)
+	at org.codehaus.groovy.grails.web.taglib.NamespacedTagDispatcher.invokeMethod(NamespacedTagDispatcher.groovy:49)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:88)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+	at groovy.lang.Closure.call(Closure.java:276)
+	at groovy.lang.Closure.call(Closure.java:271)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+	at org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+	at org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+	at org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+	at org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.filter.GrailsReloadServletFilter.doFilterInternal(GrailsReloadServletFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 06-Feb-2011 @ 00:02:35.068] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 2
+pdfAction: invoice
+pdfId: 2
+pdfController: feeRun
+Stacktrace follows:
+javax.servlet.ServletException: File &quot;/WEB-INF/grails-app/views/feeRun/invoice.jsp&quot; not found
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:319)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:267)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 06-Feb-2011 @ 12:04:31.461] [http-8080-1] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Tag [mypdfLink] does not exist. No tag library found for namespace: g at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Tag [mypdfLink] does not exist. No tag library found for namespace: g at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2_closure26.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:76)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:60)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:83)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 06-Feb-2011 @ 12:04:31.522] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error processing GroovyPageView: Tag [mypdfLink] does not exist. No tag library found for namespace: g at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Tag [mypdfLink] does not exist. No tag library found for namespace: g at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2_closure26.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:76)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:60)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:83)
+	... 1 more
+[Sun, 06-Feb-2011 @ 12:06:50.630] [http-8080-1] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2_closure26.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:76)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:60)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:83)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 06-Feb-2011 @ 12:06:50.653] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error processing GroovyPageView: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2_closure26.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:76)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:60)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:83)
+	... 1 more
+[Sun, 06-Feb-2011 @ 12:11:19.047] [http-8080-2] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Error executing tag <kn:monthsListDisplay>: Exception evaluating property '1' for java.util.ArrayList, Reason: groovy.lang.MissingPropertyException: No such property: 1 for class: java.lang.String at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:71
+org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Error executing tag <kn:monthsListDisplay>: Exception evaluating property '1' for java.util.ArrayList, Reason: groovy.lang.MissingPropertyException: No such property: 1 for class: java.lang.String at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:71
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:58)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:82)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: groovy.lang.MissingPropertyException: Exception evaluating property '1' for java.util.ArrayList, Reason: groovy.lang.MissingPropertyException: No such property: 1 for class: java.lang.String
+	at keelernadler.KnTagsTagLib$_closure2_closure6.doCall(KnTagsTagLib.groovy:45)
+	at keelernadler.KnTagsTagLib$_closure2.doCall(KnTagsTagLib.groovy:44)
+	... 4 more
+[Sun, 06-Feb-2011 @ 12:11:19.066] [http-8080-2] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error processing GroovyPageView: Error executing tag <kn:monthsListDisplay>: Exception evaluating property '1' for java.util.ArrayList, Reason: groovy.lang.MissingPropertyException: No such property: 1 for class: java.lang.String at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:71
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Error executing tag <kn:monthsListDisplay>: Exception evaluating property '1' for java.util.ArrayList, Reason: groovy.lang.MissingPropertyException: No such property: 1 for class: java.lang.String at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:71
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:58)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:82)
+	... 1 more
+Caused by: groovy.lang.MissingPropertyException: Exception evaluating property '1' for java.util.ArrayList, Reason: groovy.lang.MissingPropertyException: No such property: 1 for class: java.lang.String
+	at keelernadler.KnTagsTagLib$_closure2_closure6.doCall(KnTagsTagLib.groovy:45)
+	at keelernadler.KnTagsTagLib$_closure2.doCall(KnTagsTagLib.groovy:44)
+	... 4 more
+[Sun, 06-Feb-2011 @ 12:13:26.781] [http-8080-4] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2_closure26.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:76)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:60)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:83)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 06-Feb-2011 @ 12:13:26.804] [http-8080-4] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error processing GroovyPageView: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Tag [mypdfLink] does not exist. No tag library found for namespace: kn at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89 at C:/dev/grails/keelernadler/grails-app/views/feeRun/list.gsp:89
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2_closure26.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:76)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:60)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_list_gsp:83)
+	... 1 more
+[Sun, 06-Feb-2011 @ 23:50:24.660] [http-8080-3] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 6 more
+[Sun, 06-Feb-2011 @ 23:50:24.693] [http-8080-3] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 2
+pdfAction: invoice
+pdfId: 2
+pdfController: feeRun
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 6 more
+[Sun, 06-Feb-2011 @ 23:53:36.289] [http-8080-3] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: The entity "nbsp" was referenced, but not declared.
+[Sun, 06-Feb-2011 @ 23:54:09.586] [http-8080-3] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: The entity "nbsp" was referenced, but not declared.
+[Sun, 06-Feb-2011 @ 23:54:34.326] [http-8080-2] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 6 more
+[Sun, 06-Feb-2011 @ 23:54:34.378] [http-8080-2] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/pdf/pdfLink - parameters:
+id: 2
+pdfAction: invoice
+pdfId: 2
+pdfController: feeRun
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy:22)
+	at pdf.PdfController$_closure2.doCall(PdfController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 6 more
+[Mon, 07-Feb-2011 @ 23:04:52.668] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 100: unable to resolve class DocumentBuilder 
+ @ line 100, column 29.
+               DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+                               ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 101: unable to resolve class Document 
+ @ line 101, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 102: unable to resolve class ITextRenderer 
+ @ line 102, column 27.
+               ITextRenderer renderer = new ITextRenderer();
+                             ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 102: unable to resolve class ITextRenderer 
+ @ line 102, column 38.
+               ITextRenderer renderer = new ITextRenderer();
+                                        ^
+
+4 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:04:52.722] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 100: unable to resolve class DocumentBuilder 
+ @ line 100, column 29.
+               DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+                               ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 101: unable to resolve class Document 
+ @ line 101, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 102: unable to resolve class ITextRenderer 
+ @ line 102, column 27.
+               ITextRenderer renderer = new ITextRenderer();
+                             ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 102: unable to resolve class ITextRenderer 
+ @ line 102, column 38.
+               ITextRenderer renderer = new ITextRenderer();
+                                        ^
+
+4 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:00.369] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 15: unable to resolve class org.w3c.dom
+ @ line 15, column 1.
+   import org.w3c.dom
+   ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:00.375] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 15: unable to resolve class org.w3c.dom
+ @ line 15, column 1.
+   import org.w3c.dom
+   ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:04.337] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 15: unable to resolve class org.w3c.dom
+ @ line 15, column 1.
+   import org.w3c.dom
+   ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:04.341] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 15: unable to resolve class org.w3c.dom
+ @ line 15, column 1.
+   import org.w3c.dom
+   ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:21.025] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 15: unable to resolve class org.w3c.dom
+ @ line 15, column 1.
+   import org.w3c.dom
+   ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:21.031] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 15: unable to resolve class org.w3c.dom
+ @ line 15, column 1.
+   import org.w3c.dom
+   ^
+
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+2 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:22.637] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:10:22.641] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:12:14.226] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:12:14.230] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:12:17.029] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler]  - Unhandled exception occurred whilst decorating page
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Mon, 07-Feb-2011 @ 23:12:17.033] [http-8080-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/keelernadler].[default]  - Servlet.service() for servlet default threw exception
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C:\dev\grails\keelernadler\grails-app\controllers\com\kn\FeeRunController.groovy: 105: unable to resolve class Document 
+ @ line 105, column 22.
+               Document doc = builder.parse(new StringBufferInputStream(buf.toString()));
+                        ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:296)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:829)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:511)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:487)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:464)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:287)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:267)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:214)
+	at org.codehaus.groovy.grails.compiler.GrailsClassLoader.reloadClass(GrailsClassLoader.java:88)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.attemptClassReload(DefaultGrailsPlugin.java:932)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.fireModifiedEvent(DefaultGrailsPlugin.java:893)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPlugin.checkForChanges(DefaultGrailsPlugin.java:752)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager.checkForChanges(DefaultGrailsPluginManager.java:645)
+	at org.codehaus.groovy.grails.plugins.DefaultGrailsPluginManager$GrailsPluginChangeChecker$1.run(DefaultGrailsPluginManager.java:1897)
+[Tue, 08-Feb-2011 @ 21:48:43.526] [http-8080-6] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 4 more
+[Tue, 08-Feb-2011 @ 21:48:43.553] [http-8080-6] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/feeRun/invoice/1
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 4 more
+[Tue, 08-Feb-2011 @ 21:48:43.927] [http-8080-6] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost]  - Exception Processing ErrorPage[errorCode=500, location=/grails-errorhandler]
+java.lang.IllegalStateException: Cannot reset buffer after response has been committed
+	at org.apache.catalina.connector.Response.resetBuffer(Response.java:691)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:409)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:343)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:287)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Tue, 08-Feb-2011 @ 21:50:09.826] [http-8080-3] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 4 more
+[Tue, 08-Feb-2011 @ 21:50:09.851] [http-8080-3] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/feeRun/invoice/2
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [13]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:72)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure11.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:36)
+	... 4 more
+[Tue, 08-Feb-2011 @ 21:50:09.866] [http-8080-3] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost]  - Exception Processing ErrorPage[errorCode=500, location=/grails-errorhandler]
+java.lang.IllegalStateException: Cannot reset buffer after response has been committed
+	at org.apache.catalina.connector.Response.resetBuffer(Response.java:691)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:409)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:343)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:287)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Tue, 08-Feb-2011 @ 21:51:29.873] [http-8080-3] ERROR org.codehaus.groovy.grails.web.servlet.view.GroovyPageView  - Error processing GroovyPageView: Error evaluating expression [feeRunInstance.feegroups] on line [14]: Cannot get property 'feegroups' on null object
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [14]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:40)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:76)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure16.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:40)
+	... 4 more
+[Tue, 08-Feb-2011 @ 21:51:29.899] [http-8080-3] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/feeRun/invoice/1
+Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [feeRunInstance.feegroups] on line [14]: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:40)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp)
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp.run(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:76)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NullPointerException: Cannot get property 'feegroups' on null object
+	at C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp$_run_closure2_closure16.doCall(C__dev_grails_keelernadler_grails_app_views_feeRun_invoice_gsp:40)
+	... 4 more
+[Tue, 08-Feb-2011 @ 21:51:29.912] [http-8080-3] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost]  - Exception Processing ErrorPage[errorCode=500, location=/grails-errorhandler]
+java.lang.IllegalStateException: Cannot reset buffer after response has been committed
+	at org.apache.catalina.connector.Response.resetBuffer(Response.java:691)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:409)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:343)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:287)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Thread.java:619)
+[Sat, 26-Feb-2011 @ 21:24:07.045] [http-8080-3] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: The element type "img" must be terminated by the matching end-tag "</img>".
+[Sat, 26-Feb-2011 @ 21:24:10.534] [http-8080-3] ERROR grails.app.service.pdf.PdfService  - org.xhtmlrenderer.util.XRRuntimeException: Can't load the XML resource (using TRaX transformer). org.xml.sax.SAXParseException: The element type "img" must be terminated by the matching end-tag "</img>".
+[Sat, 26-Feb-2011 @ 23:56:41.836] [main] ERROR org.codehaus.groovy.grails.web.context.GrailsContextLoader  - Error executing bootstraps: Error creating bean with name 'messageSource': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageSource': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	at org.grails.tomcat.TomcatServer.start(TomcatServer.groovy:212)
+	at grails.web.container.EmbeddableServer$start.call(Unknown Source)
+	at grails.web.container.EmbeddableServer$start.call(Unknown Source)
+	at _GrailsRun_groovy$_run_closure5_closure12.doCall(_GrailsRun_groovy:158)
+	at _GrailsRun_groovy$_run_closure5_closure12.doCall(_GrailsRun_groovy)
+	at _GrailsSettings_groovy$_run_closure10.doCall(_GrailsSettings_groovy:280)
+	at _GrailsSettings_groovy$_run_closure10.call(_GrailsSettings_groovy)
+	at _GrailsRun_groovy$_run_closure5.doCall(_GrailsRun_groovy:149)
+	at _GrailsRun_groovy$_run_closure5.call(_GrailsRun_groovy)
+	at _GrailsRun_groovy.runInline(_GrailsRun_groovy:116)
+	at _GrailsRun_groovy.this$4$runInline(_GrailsRun_groovy)
+	at _GrailsRun_groovy$_run_closure1.doCall(_GrailsRun_groovy:59)
+	at _GrailsRun_groovy$_run_closure8_closure14.doCall(_GrailsRun_groovy:263)
+	at _GrailsRun_groovy$_run_closure8_closure14.doCall(_GrailsRun_groovy)
+	at _GrailsPackage_groovy$_run_closure8.doCall(_GrailsPackage_groovy:299)
+	at _GrailsPackage_groovy$_run_closure8.call(_GrailsPackage_groovy)
+	at _GrailsRun_groovy$_run_closure8.doCall(_GrailsRun_groovy:245)
+	at RunApp$_run_closure1.doCall(RunApp.groovy:35)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	... 29 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	... 29 more
+Caused by: org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	... 29 more
+[Sun, 27-Feb-2011 @ 00:00:42.836] [main] ERROR org.codehaus.groovy.grails.web.context.GrailsContextLoader  - Error executing bootstraps: Error creating bean with name 'messageSource': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'messageSource': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	at org.grails.tomcat.TomcatServer.start(TomcatServer.groovy:212)
+	at grails.web.container.EmbeddableServer$start.call(Unknown Source)
+	at _GrailsRun_groovy$_run_closure5_closure12.doCall(_GrailsRun_groovy:158)
+	at _GrailsRun_groovy$_run_closure5_closure12.doCall(_GrailsRun_groovy)
+	at _GrailsSettings_groovy$_run_closure10.doCall(_GrailsSettings_groovy:280)
+	at _GrailsSettings_groovy$_run_closure10.call(_GrailsSettings_groovy)
+	at _GrailsRun_groovy$_run_closure5.doCall(_GrailsRun_groovy:149)
+	at _GrailsRun_groovy$_run_closure5.call(_GrailsRun_groovy)
+	at _GrailsRun_groovy.runInline(_GrailsRun_groovy:116)
+	at _GrailsRun_groovy.this$4$runInline(_GrailsRun_groovy)
+	at _GrailsRun_groovy$_run_closure1.doCall(_GrailsRun_groovy:59)
+	at RunApp$_run_closure1.doCall(RunApp.groovy:33)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'transactionManager': Cannot resolve reference to bean 'sessionFactory' while setting bean property 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	... 23 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory': Invocation of init method failed; nested exception is org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	... 23 more
+Caused by: org.hibernate.PropertyNotFoundException: Could not find a setter for property address in class com.kn.Accnt
+	... 23 more
+[Sun, 27-Feb-2011 @ 00:02:27.369] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/feeRun/invoice/1
+Stacktrace follows:
+groovy.lang.MissingPropertyException: No such property: addr for class: com.kn.Accnt
+Possible solutions: id
+	at com.kn.Accnt.buildAddress(Accnt.groovy:54)
+	at com.kn.Accnt$buildAddress.call(Unknown Source)
+	at com.kn.FeeRunController$_closure3_closure18_closure19.doCall(FeeRunController.groovy:136)
+	at com.kn.FeeRunController$_closure3_closure18.doCall(FeeRunController.groovy:131)
+	at com.kn.FeeRunController$_closure3.doCall(FeeRunController.groovy:130)
+	at com.kn.FeeRunController$_closure3.doCall(FeeRunController.groovy)
+	at java.lang.Thread.run(Thread.java:619)
+[Sun, 27-Feb-2011 @ 00:04:51.946] [http-8080-1] ERROR org.codehaus.groovy.grails.web.errors.GrailsExceptionResolver  - Exception occurred when processing request: [GET] /keelernadler/feeRun/invoice/1
+Stacktrace follows:
+groovy.lang.MissingPropertyException: No such property: addr for class: com.kn.Accnt
+Possible solutions: id
+	at com.kn.Accnt.buildAddress(Accnt.groovy:54)
+	at com.kn.Accnt$buildAddress.call(Unknown Source)
+	at com.kn.FeeRunController$_closure3_closure18_closure19.doCall(FeeRunController.groovy:136)
+	at com.kn.FeeRunController$_closure3_closure18.doCall(FeeRunController.groovy:131)
+	at com.kn.FeeRunController$_closure3.doCall(FeeRunController.groovy:130)
+	at com.kn.FeeRunController$_closure3.doCall(FeeRunController.groovy)
+	at java.lang.Thread.run(Thread.java:619)

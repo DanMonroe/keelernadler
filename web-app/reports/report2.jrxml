@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     fee_group.`id` AS fee_group_id,
+     fee_group.`version` AS fee_group_version,
+     fee_group.`fee_run_id` AS fee_group_fee_run_id,
+     fee_group.`group_id` AS fee_group_group_id,
+     fee_group.`group_fee` AS fee_group_group_fee,
+     fee_group.`market_value` AS fee_group_market_value,
+     fee_group.`feegroups_idx` AS fee_group_feegroups_idx,
+     fee.`id` AS fee_id,
+     fee.`version` AS fee_version,
+     fee.`accountid` AS fee_accountid,
+     fee.`date_created` AS fee_date_created,
+     fee.`fee_value` AS fee_fee_value,
+     fee.`feegroup_id` AS fee_feegroup_id,
+     fee.`last_updated` AS fee_last_updated,
+     fee.`market_value` AS fee_market_value,
+     fee.`value_date` AS fee_value_date,
+     fee.`weight` AS fee_weight,
+     fee.`fees_idx` AS fee_fees_idx,
+     accnt.`id` AS accnt_id,
+     accnt.`version` AS accnt_version,
+     accnt.`accountid` AS accnt_accountid,
+     accnt.`billing_accountid` AS accnt_billing_accountid,
+     accnt.`billing_schedule_id` AS accnt_billing_schedule_id,
+     accnt.`group_account_id` AS accnt_group_account_id,
+     accnt.`name` AS accnt_name,
+     accnt.`pay_plan` AS accnt_pay_plan,
+     accnt.`rep_num_id` AS accnt_rep_num_id,
+     accnt.`type_id` AS accnt_type_id,
+     accnt.`accounts_idx` AS accnt_accounts_idx
+FROM
+     `fee_group` fee_group INNER JOIN `fee` fee ON fee_group.`id` = fee.`feegroup_id`,
+     `accnt` accnt]]>
+	</queryString>
+	<field name="fee_market_value" class="java.math.BigDecimal"/>
+	<field name="accnt_accountid" class="java.lang.String"/>
+	<field name="fee_group_id" class="java.lang.Long"/>
+	<group name="fee_group_id">
+		<groupExpression><![CDATA[$F{fee_group_id}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="13" width="227" height="20"/>
+				<textElement/>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{accnt_accountid}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

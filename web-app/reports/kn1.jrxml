@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kn1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<queryString language="SQL">
+		<![CDATA[SELECT
+     accnt.`version` AS accnt_version,
+     accnt.`accountid` AS accnt_accountid,
+     accnt.`billing_accountid` AS accnt_billing_accountid,
+     accnt.`billing_schedule_id` AS accnt_billing_schedule_id,
+     accnt.`group_account_id` AS accnt_group_account_id,
+     accnt.`name` AS accnt_name,
+     accnt.`pay_plan` AS accnt_pay_plan,
+     accnt.`rep_num_id` AS accnt_rep_num_id,
+     accnt.`type_id` AS accnt_type_id,
+     accnt.`accounts_idx` AS accnt_accounts_idx,
+     accnt.`id` AS accnt_id,
+     account_type.`id` AS account_type_id,
+     account_type.`version` AS account_type_version,
+     account_type.`title` AS account_type_title,
+     group_account.`id` AS group_account_id,
+     group_account.`version` AS group_account_version,
+     group_account.`invoiced` AS group_account_invoiced,
+     group_account.`name` AS group_account_name,
+     group_account.`rate_schedule_id` AS group_account_rate_schedule_id,
+     rate_schedule.`id` AS rate_schedule_id,
+     rate_schedule.`version` AS rate_schedule_version,
+     rate_schedule.`name` AS rate_schedule_name,
+     rate_schedule.`stepping` AS rate_schedule_stepping,
+     rate.`id` AS rate_id,
+     rate.`version` AS rate_version,
+     rate.`block_amount` AS rate_block_amount,
+     rate.`flat_rate` AS rate_flat_rate,
+     rate.`rate` AS rate_rate,
+     rate.`description` AS rate_description,
+     rate.`display_rate` AS rate_display_rate,
+     rate_schedule_rate.`rate_schedule_rates_id` AS rate_schedule_rate_rate_schedule_rates_id,
+     rate_schedule_rate.`rate_id` AS rate_schedule_rate_rate_id,
+     rate_schedule_rate.`rates_idx` AS rate_schedule_rate_rates_idx
+FROM
+     `account_type` account_type INNER JOIN `accnt` accnt ON account_type.`id` = accnt.`type_id`
+     INNER JOIN `group_account` group_account ON accnt.`group_account_id` = group_account.`id`
+     INNER JOIN `rate_schedule` rate_schedule ON group_account.`rate_schedule_id` = rate_schedule.`id`,
+     `rate` rate INNER JOIN `rate_schedule_rate` rate_schedule_rate ON rate.`id` = rate_schedule_rate.`rate_id`]]>
+	</queryString>
+	<field name="accnt_version" class="java.lang.Long"/>
+	<field name="accnt_accountid" class="java.lang.String"/>
+	<field name="accnt_billing_accountid" class="java.lang.String"/>
+	<field name="accnt_billing_schedule_id" class="java.lang.Long"/>
+	<field name="accnt_group_account_id" class="java.lang.Long"/>
+	<field name="accnt_name" class="java.lang.String"/>
+	<field name="accnt_pay_plan" class="java.lang.String"/>
+	<field name="accnt_rep_num_id" class="java.lang.Long"/>
+	<field name="accnt_type_id" class="java.lang.Long"/>
+	<field name="accnt_accounts_idx" class="java.lang.Integer"/>
+	<field name="accnt_id" class="java.lang.Long"/>
+	<field name="account_type_id" class="java.lang.Long"/>
+	<field name="account_type_version" class="java.lang.Long"/>
+	<field name="account_type_title" class="java.lang.String"/>
+	<field name="group_account_id" class="java.lang.Long"/>
+	<field name="group_account_version" class="java.lang.Long"/>
+	<field name="group_account_invoiced" class="java.lang.Boolean"/>
+	<field name="group_account_name" class="java.lang.String"/>
+	<field name="group_account_rate_schedule_id" class="java.lang.Long"/>
+	<field name="rate_schedule_id" class="java.lang.Long"/>
+	<field name="rate_schedule_version" class="java.lang.Long"/>
+	<field name="rate_schedule_name" class="java.lang.String"/>
+	<field name="rate_schedule_stepping" class="java.lang.Boolean"/>
+	<field name="rate_id" class="java.lang.Long"/>
+	<field name="rate_version" class="java.lang.Long"/>
+	<field name="rate_block_amount" class="java.math.BigDecimal"/>
+	<field name="rate_flat_rate" class="java.math.BigDecimal"/>
+	<field name="rate_rate" class="java.math.BigDecimal"/>
+	<field name="rate_description" class="java.lang.String"/>
+	<field name="rate_display_rate" class="java.lang.String"/>
+	<field name="rate_schedule_rate_rate_schedule_rates_id" class="java.lang.Long"/>
+	<field name="rate_schedule_rate_rate_id" class="java.lang.Long"/>
+	<field name="rate_schedule_rate_rates_idx" class="java.lang.Integer"/>
+	<group name="group_account_id">
+		<groupExpression><![CDATA[$F{group_account_id}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,118 @@
+/* fakefileinput with jQuery */
+#fileUploadWrap {
+    width:500px;
+}
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+div.fakefile input {
+    margin-right: 10px;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	height:28px;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.fakefileinput {
+    margin: 0 5px 0 0;
+    width: 280px;
+}
+
+#imgfile {
+    width: 370px;
+    cursor: pointer;
+}
+
+.menuButton a.import {
+    background: url(../images/skin/database_table.png) center left no-repeat;
+    color: #333;
+    padding-left: 25px;
+}
+
+
+        #leftnav {
+            margin-top:20px;
+            margin-left:30px;
+            width:228px;
+            float:left;
+
+        }
+        .homePagePanel * {
+            margin:0px;
+        }
+        .homePagePanel .panelBody ul {
+            list-style-type:none;
+            margin-bottom:10px;
+        }
+        .homePagePanel .panelBody h1 {
+            text-transform:uppercase;
+            font-size:1.1em;
+            margin-bottom:10px;
+        }
+        .homePagePanel .panelBody {
+            background: url(../images/leftnav_midstretch.png) repeat-y top;
+            margin:0px;
+            padding:15px;
+        }
+        .homePagePanel .panelBtm {
+            background: url(../images/leftnav_btm.png) no-repeat top;
+            height:20px;
+            margin:0px;
+        }
+
+        .homePagePanel .panelTop {
+            background: url(../images/leftnav_top.png) no-repeat top;
+            height:11px;
+            margin:0px;
+        }
+        h2 {
+            margin-top:15px;
+            margin-bottom:15px;
+            font-size:1.2em;
+        }
+        #pageBody {
+            margin-left:280px;
+            margin-right:20px;
+        }
+
+.CheckBoxList {
+    height: 100px; overflow: auto; overflow-x: hidden; width: 200px; border: 0px solid #000;
+    list-style-type: none; margin: 0; padding:0px
+}
+.CheckBoxList li  {
+    padding:2px
+}
+
+.CheckBoxList input {
+    margin-right: 7px;
+}
+
+.prop li, .help li {
+    margin: 4px 0px;
+}
+
+.sample1 {
+	background-color: #FFC;
+}
+.help tr {
+	height: 20px;
+}
+
+.help p {
+    margin: 5px 0 10px 0;
+}

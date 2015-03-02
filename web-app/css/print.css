@@ -1,0 +1,11 @@
+html * {
+    margin: 0;
+    /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
+}
+
+@page {
+    size: 8.5in 11in;  /* width height */
+    margin: 0.25in;
+}
+
+<
